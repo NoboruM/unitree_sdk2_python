@@ -216,11 +216,11 @@ def unitree_hg_msg_dds__MainBoardState_():
     return HGMainBoardState_([0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0], [0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [0, 0, 0, 0, 0, 0])
 
 def unitree_hg_msg_dds__LowCmd_():
-    return HGLowCmd_(0, 0, [unitree_hg_msg_dds__MotorCmd_() for i in range(35)], [0, 0, 0, 0], 0)
+    return HGLowCmd_(0, 0, [unitree_hg_msg_dds__MotorCmd_() for i in range(41)], [0, 0, 0, 0], 0)
 
 def unitree_hg_msg_dds__LowState_():
     return HGLowState_([0, 0], 0, 0, 0, unitree_hg_msg_dds__IMUState_(),
-                [unitree_hg_msg_dds__MotorState_() for i in range(35)],
+                [unitree_hg_msg_dds__MotorState_() for i in range(41)],
                 [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
                 [0, 0, 0, 0], 0)
 
